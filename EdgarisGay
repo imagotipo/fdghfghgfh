@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opciones</title>
+</head>
+<body>
+    <h1>Selecciona una opción:</h1>
+    <ul>
+        <li><a href="https://bard.google.com/chat?hl=es" id="option1">Bard</a></li>
+        <li><a href="https://www.bing.com/?setlang=es" id="option2">Bing</a></li>
+        <li><a href="https://chat.openai.com/" id="option3">Chat GPT</a></li>
+    </ul>
+
+    <script>
+        // Agrega los enlaces a las opciones
+        document.getElementById("option1").addEventListener("click", function() {
+            window.location.href = "URL_DEL_ENLACE_PARA_BARD";
+        });
+
+        document.getElementById("option2").addEventListener("click", function() {
+            window.location.href = "URL_DEL_ENLACE_PARA_BING";
+        });
+
+        document.getElementById("option3").addEventListener("click", function() {
+            window.location.href = "URL_DEL_ENLACE_PARA_CHAT_GPT";
+        });
+    </script>
+</body>
+</html>
